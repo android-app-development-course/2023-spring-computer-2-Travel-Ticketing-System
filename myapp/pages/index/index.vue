@@ -27,8 +27,8 @@
             </view>
         </view>
         <div id="logo" style="text-align: center; margin-top: 30px">
-            <img id="logoImage" style="width: 60px; height: 40px;" src="/static/logo.svg"/>
-            <div id="logoChar" class="logoChar">金美美旗下旅行公司</div>
+<!--            <img id="logoImage" style="width: 60px; height: 40px;" src="/static/logo.svg"/>-->
+            <div id="logoChar" class="logoChar">217团队</div>
         </div>
 	</view>
 </template>
