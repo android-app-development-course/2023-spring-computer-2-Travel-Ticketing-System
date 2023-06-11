@@ -57,7 +57,7 @@
             <image src="../../static/myIcon/2.png" mode="aspectFit"></image>
           </view>
           <view class="center">
-            <text>参加的活动</text>
+            <text>我个人设置</text>
           </view>
           <view class="right flex-center">
             <u-icon class="icon" name="arrow-right"></u-icon>

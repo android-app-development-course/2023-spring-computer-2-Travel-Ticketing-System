@@ -1,15 +1,14 @@
 <!--本页面由uniapp切片工具生成，uni-app切片-可视化设计工具(一套代码编译到7个平台iOS、Android、H5、小程序)，软件下载地址：http://www.ymznkf.com/new_view_669.htm -->
 <template>
-	<view class="content">
-		<view class="no_order_in_order_list_1">
-			<image v-on:click="no_order_in_order_list_7_7_click()"  src="../../static/icon/no_order.jpg" mode="scaleToFill" border="0"    class="no_order_in_order_list_7"></image>
-			<text decode="true" class="no_order_in_order_list_9">暂时没有订单哦</text>
-			<button v-on:click="btGo_11_click()" class="btGo">去购票
-			</button>
-		</view>
-		<view class="loading">{{loadingText}}</view>
-		<view class="ymBbottom"></view>
-	</view>
+  <view style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <view style="margin-top: 40px;">
+      <image v-on:click="no_order_in_order_list_7_7_click()" src="../../static/icon/no_order.jpg" style="width: 200px; height: 200px; object-fit: cover;"></image>
+      <text decode="true" style="font-size: 16px; color: #333; margin-top: 20px;">暂时没有订单哦</text>
+      <button v-on:click="btGo_11_click()" style="background-color: #3399FF; color: #fff; font-size: 16px; border-radius: 4px; padding: 10px 20px; margin-top: 20px;">去购票</button>
+    </view>
+    <view style="font-size: 16px; color: #999; margin-top: 20px;">{{loadingText}}</view>
+    <view style="height: 50px;"></view>
+  </view>
 </template>
 
 <style scoped>
